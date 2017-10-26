@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/Chandrasekar-G/present-me.svg?branch=master)](https://travis-ci.org/Chandrasekar-G/present-me)
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
+
 # PresentMe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
