@@ -1,5 +1,32 @@
 .container{
     text-align: center;
     font-size: 30px;
-    margin-top: 150px;
+    margin-top: 50px;   
+}
+.title {
+    font-size: 40px;
+    padding: 40px;
+}
+.abstract{
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+    padding: 2% 8%;
+}
+.generate-btn{
+    display: block;
+    margin: 0 auto;
+    background: #5097D6;
+    border:none;
+    color:white;
+    font-size: 35px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
 }

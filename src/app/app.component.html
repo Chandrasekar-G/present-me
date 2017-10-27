@@ -4,7 +4,13 @@
     Present Me!!
   </h1>
 </div>
+<!--<input type="button" (click)="generateTalk()" class="generate-btn" value="Generate another Talk"/>-->
 <div class="container">
-  <div style="margin-bottom:100px">An easy peasy conference talk generator. Stay tuned ;)</div>
-  <img src="https://overwatch.gamepedia.com/media/overwatch.gamepedia.com/3/3b/WIPLogo.png" />
+  <div class="title">{{ currentTalk.title }}</div>
+  <div class="abstract">{{ currentTalk.abstract }}</div>
 </div>
+
+<div class="footer">
+  Press the Spacebar to see it in action ;)
+</div>
+
