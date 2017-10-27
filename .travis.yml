@@ -28,8 +28,14 @@ script:
   - npm run test
   - npm run e2e
 
-after_success:
-  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+# after_success:
+#   - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: $FIREBASE_TOKEN
 
 notifications:
   email:
