@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
 
   @HostListener('window:keyup', ['$event'])
   keyEvent(event: KeyboardEvent) {
-    if(event.code == "Space") {
+    if(event.keyCode == 32) {
       this.generateTalk();
     }
   }
