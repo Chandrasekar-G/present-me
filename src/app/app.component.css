@@ -12,6 +12,7 @@
     font-weight: lighter;
     text-align: justify;
     padding: 2% 8%;
+    margin-bottom: 100px;
 }
 .generate-btn{
     display: block;
@@ -25,8 +26,13 @@
 }
 
 .footer{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    left: 0px;
+    bottom: 0;
+    padding: 4px;
+    z-index: 99;
+    text-align: center; 
+    padding: 15px;
 }
