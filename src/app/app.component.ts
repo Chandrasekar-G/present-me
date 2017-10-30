@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-
+import 'hammerjs';
 import  data  from './data/data-set';
 
 @Component({
@@ -29,7 +29,7 @@ export class AppComponent implements OnInit{
   swipe() {		
      this.generateTalk();		
   }
-  
+
   generateTalk() {
     this.currentTalk = this.dataSet[Math.floor(Math.random()*this.dataSet.length)];
   }
