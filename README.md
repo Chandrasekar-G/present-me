@@ -2,7 +2,6 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
-Have a look at the live site here https://present-me-26be3.firebaseapp.com/
 
 # PresentMe
 
