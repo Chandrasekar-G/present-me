@@ -8,9 +8,11 @@ import  data  from './data/data-set';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+
   title = 'app';
   dataSet = [];
   currentTalk = {};
+  SWIPE_ACTION = { LFET:'swipeLeft' , RIGHT: 'swipeRight'};
 
   ngOnInit() {
     this.dataSet = data;
@@ -24,6 +26,10 @@ export class AppComponent implements OnInit{
     }
   }
 
+  swipe() {		
+     this.generateTalk();		
+  }
+  
   generateTalk() {
     this.currentTalk = this.dataSet[Math.floor(Math.random()*this.dataSet.length)];
   }
