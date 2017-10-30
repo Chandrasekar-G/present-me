@@ -5,7 +5,7 @@
   </h1>
 </div>
 <!--<input type="button" (click)="generateTalk()" class="generate-btn" value="Generate another Talk"/>-->
-<div class="container">
+<div class="container" (swipeLeft)="swipe()" (swipeRight)="swipe()">
   <div class="title">{{ currentTalk.title }}</div>
   <div class="abstract">{{ currentTalk.abstract }}</div>
 </div>
