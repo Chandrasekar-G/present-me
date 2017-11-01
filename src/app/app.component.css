@@ -1,7 +1,8 @@
 .container{
     text-align: center;
     font-size: 30px;
-    margin-top: 50px;   
+    margin-top: 50px;  
+    overflow-x: hidden; 
 }
 .title {
     font-size: 40px;
@@ -35,4 +36,32 @@
     z-index: 99;
     text-align: center; 
     padding: 15px;
+}
+.mobile{
+    display: none;
+}
+
+.web{
+    display: block;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    html, body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .title{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .abstract{
+        font-size: 15px;
+        overflow: scroll;
+    }
+    .container{
+        margin-top: 10px;
+        touch-action: pan-y !important;
+    }
+    .mobile{
+        display: block;
+    }
 }
