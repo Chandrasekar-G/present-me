@@ -26,7 +26,7 @@ before_script:
 script:
   - npm run test
   - npm run e2e
-  - ng build --env=prod
+  - ng build --prod
   
 deploy:
   provider: firebase
